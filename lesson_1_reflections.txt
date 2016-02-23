@@ -59,12 +59,3 @@ I would like to finish the course first, gain some further practical experience 
 comfortable incorporating Git in my own projects.
 
 
-How is the staging area different from the working directory and the repository? What value do you 
-think it offers?
--------------------------
-The staging area is as the name suggest the area where git temporarily posts files to receive the 
-commits the user wants to add to said files. The repository is the final landing spot for those commits
-made, so they leave the staging area to land in their final spot in the repository.  The working 
-directory encapsulates the repository and all the elements within. The staging area in contrast to the 
-repository and working directory is a virtual area where commits are temporarily posted before being 
-placed back in the repository, akin to a waiting room.
