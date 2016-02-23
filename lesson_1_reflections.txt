@@ -1,5 +1,5 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
------------------------
+-------------------------
 Diff helped discerning differences between the two versions by aligning the lines of text, where
 change was visible, next to each other (each on its own line). By the mere juxtaposition of said 
 lines, It was easy to highlight the differences between the 2 different versions of text.
@@ -7,7 +7,7 @@ lines, It was easy to highlight the differences between the 2 different versions
 
 How could having easy access to the entire history of a file make you a more efficient programmer
 in the long term?
------------------------
+-------------------------
 Easy access to the history of a file can only make it easy to document the progress and path to 
 creating a program, thus all the code associated with it. It gives insight into the thought process
 as we can easily highlight train of thought, and even methodology, through a recorded 
@@ -16,7 +16,7 @@ recollection of actions / code written to create said file/program.
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do 
 in Git, vs having versions automatically saved, like Google Docs does?
-------------------------
+-------------------------
 The pros of of manually choosing when to commit lie in the power of controlling the editing feel 
 of your document/program. Through manual commits, you can develop your own pattern of commits 
 which makes sense for that respective project, and can be altered from project to project. You can 
@@ -28,7 +28,7 @@ documenting work, this can be a hassle, even challenging.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
 while others, like Google Docs, treat each file separately?
-------------------------
+-------------------------
 The ability to save multiple files in one commit gives VCS' like Git gives the end user the power 
 to make and highlight changes which affect multiple files at the same time. An example would be 
 changes made in a function used in three different files, but changed in only one, the commit 
@@ -39,14 +39,14 @@ text editing by a single user with sharing capabilities with other users.
 
 
 How can you use the commands git log and git diff to view the history of files?
-------------------------
+-------------------------
 Git log is used to get a listing of all the commits made. Each commit has a unique identifier. Git 
 diff is then used to juxtapose the differences between two commits, highlighting insertions and 
 deletions.
 
 
 How might using version control make you more confident to make changes that could break something?
-------------------------
+-------------------------
 Version control makes it possible to trace exactly where a possible error may have originated by 
 allowing the end user to compare the state of a program between different commits, and since git
 diff tells shows exactly what changes were made between two different commits, the mistake is thus 
@@ -57,3 +57,14 @@ Now that you have your workspace set up, what do you want to try using Git for?
 -------------------------
 I would like to finish the course first, gain some further practical experience before being totally 
 comfortable incorporating Git in my own projects.
+
+
+How is the staging area different from the working directory and the repository? What value do you 
+think it offers?
+-------------------------
+The staging area is as the name suggest the area where git temporarily posts files to receive the 
+commits the user wants to add to said files. The repository is the final landing spot for those commits
+made, so they leave the staging area to land in their final spot in the repository.  The working 
+directory encapsulates the repository and all the elements within. The staging area in contrast to the 
+repository and working directory is a virtual area where commits are temporarily posted before being 
+placed back in the repository, akin to a waiting room.
