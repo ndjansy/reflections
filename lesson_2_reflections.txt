@@ -8,3 +8,10 @@ directory encapsulates the repository and all the elements within. The staging a
 repository and working directory is a virtual area where commits are temporarily posted before being 
 placed back in the repository, akin to a waiting room.
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+-------------------------
+Using git diff I can see the different changes made and in which specific instances they were made, with 
+respect to which portion of code.  I can then conclude which change(s) should be packaged in a commit or 
+separated.
+
