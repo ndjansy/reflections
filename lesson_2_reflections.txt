@@ -22,3 +22,11 @@ branches help?
 Branches help in keeping history of a project organized by allowing you to work on a parallel project 
 , a clone to the main project, while trying out new features to the project without altering the original 
 project.
+
+
+How do the diagrams help you visualize the branch structure?
+-------------------------
+Diagrams help in the visualization of branching through illustrating a tree like structure with the master
+serving as the main brannch off of which all the other branches are formed. It also gives a visual of 
+the relative length or frequency of branching, which should help analyze the user's project as far as the 
+amount of experimentation / breakdowns / or fixes. 
