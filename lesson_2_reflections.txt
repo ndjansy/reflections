@@ -15,3 +15,10 @@ Using git diff I can see the different changes made and in which specific instan
 respect to which portion of code.  I can then conclude which change(s) should be packaged in a commit or 
 separated.
 
+
+What are some situations when branches would be helpful in keeping your history organized? How would 
+branches help?
+-------------------------
+Branches help in keeping history of a project organized by allowing you to work on a parallel project 
+, a clone to the main project, while trying out new features to the project without altering the original 
+project.
