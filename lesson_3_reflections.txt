@@ -3,3 +3,8 @@ When would you want to use a remote repository rather than keeping all your work
 A remote repository would be the choice by default in collaborative projects or cases where I want to publicly share work, perhaps
 expecting feedback.
 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+---------------------
+I may not be willing to share some of the changes or commits made publicly. Although I can still backtrack if need be with changes on the remote repository, I may want to maintain a specific pattern of development and be unwilling to broadcast everything about my process. In a roundabout way, a form of abstraction. 
+
